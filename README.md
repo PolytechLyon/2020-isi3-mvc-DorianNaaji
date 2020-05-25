@@ -12,13 +12,21 @@ Lien du codesandbox: https://codesandbox.io/s/2020-isi3-mvc-doriannaaji
 ![mvc-diagram](img/MVC-Diagram-NAAJI-Dorian.png)
 _Figure : Mon diagramme du pattern MVC_
 
-2. Expliquer ce pattern à l'aide en complétant ce texte.
+2. Expliquer ce pattern en complétant ce texte.
 
-Le pattern MVP, vise à découper le `.......`, de la `.......` et du `.......` afin de rendre le code plus `.......`.
-Les responsabilités ne sont alors plus `.......`.
-On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le `.......`.
+Le pattern MVC, vise à découper le `contrôleur`, de la `vue` et du `modèle` afin de rendre le code plus `lisible`.
+Les responsabilités ne sont alors plus `liées`.
+On peut ainsi changer l'aspect visuel de sont application sans pour autant impacter le `code de la couche métier`.
 
 3. Expliquer dans quels cas on doit privilégier le pattern MVC.
+
+Ce pattern est à privilégier pour les interfaces graphiques, et surtout les applications web.
+
+On le retrouve notamment sur beaucoup de sites web reposant sur Spring MVC, Laravel, ASP.NET, etc. Avec ces frameworks, on travaille toujours en respectant le pattern MVC.
+
+Il est également utilisé en javaFX (.fxml), WPF (.xaml) pour la gestion des interfaces d'application desktop.
+
+Il sera en revanche rare et peu pertinent d'utiliser le pattern MVC pour un service, comme une API web... ou tout autre programme n'ayant pas ce besoin d'avoir une affichage à jour par rapport au back-end.
 
 ## A faire (obligatoire)
 
