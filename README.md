@@ -1,24 +1,16 @@
 # ISI3 - MVP design pattern - "Game of Life"
 
-> Le rapport est à fournir dans ce document sous chacune des questions. 
-> **Ne restez pas bloqués bêtement, demander de l'aide**
-> Ne copier pas le code de votre voisin, ça se voit.
+Nom/Prénom: NAAJI Dorian
 
-Nom/Prénom: `.......`
-
-Lien du codesandbox: `.......`
-
-> Pour générer un codesandbox associé à votre code, [suiver cette doc](https://codesandbox.io/docs/importing#import-from-github)
-
-## Game of Life
-
-Le jeu de la vie est un automate cellulaire qui répond à des règles très simple.
-Il est inventé par [John Horton Conway](https://fr.wikipedia.org/wiki/John_Horton_Conway)(1937-2020).
+Lien du codesandbox: https://codesandbox.io/s/2020-isi3-mvc-doriannaaji
 
 ## Avant-propos
 
-1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici. 
-Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
+1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici.
+   Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
+
+![mvc-diagram](img/sources/MVC-Diagram-NAAJI-Dorian.png)
+_Figure : Mon diagramme du pattern MVC_
 
 2. Expliquer ce pattern à l'aide en complétant ce texte.
 

@@ -1,7 +1,7 @@
 {
-  "name": "isi3-mvc-pattern",
+  "name": "2020-isi3-mvc-doriannaaji",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sandbox TP04 ISI-3 MVC Polytech Lyon",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
