@@ -9,7 +9,7 @@ Lien du codesandbox: https://codesandbox.io/s/2020-isi3-mvc-doriannaaji
 1. Expliquer le design pattern MVC à l'aide d'un schéma à insérer directement ici.
    Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
 
-![mvc-diagram](img/sources/MVC-Diagram-NAAJI-Dorian.png)
+![mvc-diagram](img/MVC-Diagram-NAAJI-Dorian.png)
 _Figure : Mon diagramme du pattern MVC_
 
 2. Expliquer ce pattern à l'aide en complétant ce texte.
