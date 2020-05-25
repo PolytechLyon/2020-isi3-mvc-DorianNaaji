@@ -10,6 +10,7 @@ Lien du codesandbox: https://codesandbox.io/s/2020-isi3-mvc-doriannaaji
    Utiliser un outils commde Dia pour le représenter. Je veux **votre** schéma, pas un de ceux qu'on peut trouver sur le net.
 
 ![mvc-diagram](img/MVC-Diagram-NAAJI-Dorian.png)
+
 _Figure : Mon diagramme du pattern MVC_
 
 2. Expliquer ce pattern en complétant ce texte.
@@ -35,6 +36,8 @@ Il sera en revanche rare et peu pertinent d'utiliser le pattern MVC pour un serv
 - Le bouton `stop` doit arrêter le jeu en l'état, le `start` relance le jeu.
 - le bouton `reset` arrête le jeu et vide remet à la grille à l'état initiale.
 
+> Réalisé. Voir code.
+
 ### Observer Observable
 
 Afin de mettre à jour la vue à chaque nouvelle génération du jeu, la fonction `updated` doit notifier la view afin qu'elle se mette à jour.
@@ -42,10 +45,14 @@ En quoi cela relève du design pattern ObserverObservable.
 
 1. Expliquer votre implémentation:
 
-L'usage d'une callback permet ici de `.......` afin dire à la _View_ de se redessiner.
-L'objet _Model_ n'a pas de lien avec `.......` pourtant grâce à la `.......` il peut notifier la `.......`.
+L'usage d'une callback permet ici de `d'appeler la méthode drawGame()` afin dire à la _View_ de se redessiner.
+L'objet _Model_ n'a pas de lien avec `la vue` pourtant grâce à la `fonction de callback pointant sur drawGame()` il peut notifier la `vue si un changement a eu lieu`.
 
 2. Insérer ici un UML montrant le pattern Observer-Observable liés aux objects de ce TP.
+
+![obs](img/obs.png)
+
+_Figure : UML montrant le pattern Observer-Observable_
 
 ## Optionel
 
